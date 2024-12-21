@@ -3275,12 +3275,12 @@ Du kannst auch per rechten Mausklick einen Verbinder als &quot;Saat&quot; für d
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="2213"/>
         <source>Old Ground Fill (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alte Massefüllung (%1)</translation>
     </message>
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="2214"/>
         <source>Old Copper Fill (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alte Kupferfüllung (%1)</translation>
     </message>
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="2735"/>
@@ -3295,12 +3295,12 @@ Du kannst auch per rechten Mausklick einen Verbinder als &quot;Saat&quot; für d
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="2861"/>
         <source>Old Ground Fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Alte Massefüllung</translation>
     </message>
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="2869"/>
         <source>Old Copper Fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Alte Kupferfüllung</translation>
     </message>
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="2877"/>
@@ -3485,19 +3485,21 @@ Hinweis: Wenn Du die Aktualisierung später durchführen möchtest, gibt es im &
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="4469"/>
         <source>Don&apos;t show this again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht erneut anzeigen.</translation>
     </message>
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="4472"/>
         <source>Missing copper fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehlende Kupferfüllung</translation>
     </message>
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="4473"/>
         <source>It is recommended to add copper/ground fill to your circuit to reduce acid usage during production.
 
 Continue upload?</source>
-        <translation type="unfinished"></translation>
+        <translation>Es wird empfohlen, deinen Stromkreis mit Kupfer/Masse zu füllen, um den Säureverbrauch während der Produktion zu reduzieren.
+
+Weiter hochladen?</translation>
     </message>
     <message>
         <location filename="../src/mainwindow/mainwindow_menu.cpp" line="4607"/>
@@ -5177,7 +5179,7 @@ Ursache: %2 (Fehlercode %3)</translation>
     <message>
         <location filename="../src/sketch/pcbsketchwidget.cpp" line="2816"/>
         <source>You need to select one board if you have multiple PCB boards.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn du mehrere Platinen hast, musst du eine auswählen.</translation>
     </message>
     <message>
         <location filename="../src/sketch/pcbsketchwidget.cpp" line="2827"/>
@@ -5318,7 +5320,9 @@ Ursache: %2 (Fehlercode %3)</translation>
         <source>This part cannot be saved as-is:
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Dieser Teil kann nicht in der vorliegenden Form gespeichert werden:
+
+</translation>
     </message>
     <message>
         <location filename="../src/partseditor/pemainwindow.cpp" line="475"/>
@@ -5612,8 +5616,8 @@ Ursache: %2 (Fehlercode %3)</translation>
         <location filename="../src/partseditor/pemainwindow.cpp" line="3792"/>
         <source>This part has %n unassigned connectors </source>
         <translation>
-            <numerusform>Dieses Bauteil hat einen ungenutzten Anschluss. </numerusform>
-            <numerusform>Dieses Bauteil hat %n ungenutzte Anschlüsse. </numerusform>
+            <numerusform>Dieses Bauteil hat einen ungenutzten Anschluss </numerusform>
+            <numerusform>Dieses Bauteil hat %n ungenutzte Anschlüsse </numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -6751,32 +6755,32 @@ Hinweis: Diese Warnung wird nur einmal angezeigt.</translation>
     <message>
         <location filename="../src/dialogs/prefsdialog.cpp" line="471"/>
         <source>Project properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Projekteigenschaften</translation>
     </message>
     <message>
         <location filename="../src/dialogs/prefsdialog.cpp" line="476"/>
         <source>Here you can set some settings that will be saved with the project</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier kannst du einige Einstellungen vornehmen, die mit dem Projekt gespeichert werden</translation>
     </message>
     <message>
         <location filename="../src/dialogs/prefsdialog.cpp" line="482"/>
         <source>Select the way to define the time step: (1) Number of points (max simulation time divided by the number of points) or (2) fixed time step.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wähle die Art und Weise, wie der Zeitschritt definiert werden soll: (1) Anzahl der Punkte (maximale Simulationszeit geteilt durch die Anzahl der Punkte) oder (2) fester Zeitschritt.</translation>
     </message>
     <message>
         <location filename="../src/dialogs/prefsdialog.cpp" line="492"/>
         <source>Number of points: </source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl der Punkt: </translation>
     </message>
     <message>
         <location filename="../src/dialogs/prefsdialog.cpp" line="507"/>
         <source>Time Step (s):</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeitschritt (s):</translation>
     </message>
     <message>
         <location filename="../src/dialogs/prefsdialog.cpp" line="518"/>
         <source>Animation time for the transitory simulation (s): </source>
-        <translation type="unfinished"></translation>
+        <translation>Animationszeit für die Übergangssimulation (s): </translation>
     </message>
     <message>
         <location filename="../src/dialogs/prefsdialog.cpp" line="625"/>
@@ -7419,7 +7423,13 @@ error: %1
 temp file: %2
 
 target file: %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Temporäre Datei kann nicht geschrieben werden. Speichern abgebrochen. 
+
+Fehler: %1
+
+Temporäre Datei: %2
+
+Zieldatei: %3.</translation>
     </message>
     <message>
         <location filename="../src/model/modelbase.cpp" line="460"/>
@@ -7430,7 +7440,13 @@ error: %1
 temp file: %2
 
 target file: %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Schreiben der temporären Datei. Speichern abgebrochen. 
+
+Fehler: %1
+
+Temporäre Datei: %2
+
+Zieldatei: %3.</translation>
     </message>
     <message>
         <location filename="../src/model/palettemodel.cpp" line="85"/>
@@ -8385,7 +8401,7 @@ im Sortiment. Nicht erneut hinzufügen?</translation>
     <message>
         <location filename="../src/dialogs/quotedialog.cpp" line="273"/>
         <source>The dimensions of the selected PCB (title: %1) are %2 cm x %3 cm (%4 in x %5 in).&lt;br /&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Abmessungen der ausgewählten Leiterplatte (Titel: %1) sind %2 cm x %3 cm (%4 in x %5 in).&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="../src/dialogs/quotedialog.cpp" line="171"/>
@@ -8647,17 +8663,17 @@ Hintergrund: Grün = ok, Rot = falscher Wert, Grau = aktueller Wert</translation
     <message>
         <location filename="../src/infoview/scalediconframe.cpp" line="61"/>
         <source>Part breadboard view image</source>
-        <translation type="unfinished">Steckplatinenansicht des Bauteils</translation>
+        <translation>Steckplatinenansicht des Bauteils</translation>
     </message>
     <message>
         <location filename="../src/infoview/scalediconframe.cpp" line="62"/>
         <source>Part schematic view image</source>
-        <translation type="unfinished">Schaltplanansicht des Bauteils</translation>
+        <translation>Schaltplanansicht des Bauteils</translation>
     </message>
     <message>
         <location filename="../src/infoview/scalediconframe.cpp" line="63"/>
         <source>Part pcb view image</source>
-        <translation type="unfinished">Leiterplattenansicht des Bauteils</translation>
+        <translation>Leiterplattenansicht des Bauteils</translation>
     </message>
 </context>
 <context>
@@ -8796,13 +8812,14 @@ If the parts are from the simulation bin, report the bug in GitHub.</source>
     <message>
         <location filename="../src/simulation/simulator.cpp" line="370"/>
         <source>The simulator gave an error when trying to simulate this circuit. Please, check the wiring and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Simulator gab einen Fehler aus, als er versuchte, diese Schaltung zu simulieren. Bitte überprüfe die Verdrahtung und versuche es erneut.</translation>
     </message>
     <message>
         <location filename="../src/simulation/simulator.cpp" line="409"/>
         <source>Errors:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler:
+</translation>
     </message>
     <message>
         <location filename="../src/simulation/simulator.cpp" line="358"/>
@@ -9010,14 +9027,16 @@ If the parts are from the simulation bin, report the bug in GitHub.</source>
     <message>
         <location filename="../src/sketch/sketchwidget.cpp" line="9070"/>
         <source>Part Movement Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinweis zur Bauteilverschiebung</translation>
     </message>
     <message>
         <location filename="../src/sketch/sketchwidget.cpp" line="9071"/>
         <source>To delete this connection, some parts need to be moved from their current positions.
 The parts will be moved automatically. To see changes clearly use undo then redo.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Um diese Verbindung zu löschen, müssen einige Bauteile aus ihrer aktuellen Position verschoben werden.
+Die Teile werden automatisch verschoben. Um die Änderungen deutlich zu sehen, benutze Rückgängig und Wiederherstellen.
+</translation>
     </message>
     <message>
         <location filename="../src/sketch/sketchwidget.cpp" line="10382"/>
@@ -9193,7 +9212,7 @@ Beachte: Du kannst diese Anzeige auch aufrufen, indem Du den Routing-Status in d
     <message>
         <location filename="../src/referencemodel/sqlitereferencemodel.cpp" line="1058"/>
         <source>part &apos;%1&apos; with id &apos;%2&apos; error &apos;%3&apos;; possibly because it has no &apos;family&apos; property.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bauteil &apos;%1&apos; mit ID &apos;%2&apos; Fehler &apos;%3&apos;; möglicherweise weil es keine Eigenschaft &apos;family&apos; hat.</translation>
     </message>
 </context>
 <context>
@@ -9285,12 +9304,12 @@ Beachte: Du kannst diese Anzeige auch aufrufen, indem Du den Routing-Status in d
     <message>
         <location filename="../src/help/tipsandtricks.cpp" line="82"/>
         <source>Can&apos;t find your part? Search for it by clicking the magnifier icon in the Parts Bin and type in some keywords</source>
-        <translation>Kannst du das gesuchte Teil nicht finden? Klick auf das Lupensymbol unter &apos;Bauteile&apos; und gib ein paar Stichwörter ein, um es schnell zu finden.</translation>
+        <translation>Kannst du das gesuchte Teil nicht finden? Klick auf das Lupensymbol unter &apos;Bauteile&apos; und gib ein paar Stichwörter ein, um es schnell zu finden</translation>
     </message>
     <message>
         <location filename="../src/help/tipsandtricks.cpp" line="83"/>
         <source>If you can&apos;t find a part in the Parts Bin, the Generic IC is your friend.  Drag it onto your sketch, then use the widgets in the Inspector to: choose from among 25 different through-hole and SMD packages; change the pin label; and--for DIPs and SIPs--change the number of pins.  You can also change the pin names with the Pin Label editor</source>
-        <translation>Wenn Sie ein Bauteil im Bauteil-Regal nicht finden können, ist das generische IC Ihr Freund. Ziehen Sie es einfach auf Ihre Zeichnung und nutzen Sie die Widgets im Inspector, um aus 25 verschiedenen Durchsteck- und SMD-Gehäusen auszuwählen, die Pin-Beschriftung zu ändern und - bei DIPs und SIPs - die Anzahl der Pins zu ändern. Sie können auch die Pin-Namen mit dem Pin-Beschriftungs-Editor ändern.</translation>
+        <translation>Wenn du ein Bauteil im Bauteil-Regal nicht finden kannst, ist der generische IC dein Freund. Ziehe ihn einfach auf deine Zeichnung und nutze die Widgets im Inspector, um aus 25 verschiedenen Durchsteck- und SMD-Gehäusen auszuwählen, die Pin-Beschriftung zu ändern und - bei DIPs und SIPs - die Anzahl der Pins zu ändern. Du kannst auch die Pin-Namen mit dem Pin-Beschriftungs-Editor ändern</translation>
     </message>
     <message>
         <location filename="../src/help/tipsandtricks.cpp" line="84"/>
